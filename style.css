@@ -1,6 +1,10 @@
 :root {
-	--color1: rgb(102, 193, 235);
+	--color1: rgb(196, 227, 241);
 	--color2: blue;
+}
+
+body {
+	/* background-color: var(--color1); */
 }
 
 * {
@@ -15,7 +19,7 @@ body {
 
 header {
 	display: flex;
-	width: 81%;
+	width: 92vw;
 	margin: auto;
 	height: 20vh;
 	align-items: center;
@@ -23,8 +27,8 @@ header {
 	top: 0px;
 	left: 50%;
 	transform: translateX(-50%);
-	background-color: white;
 	z-index: 999;
+	background-color: white;
 }
 
 .nav-links {
@@ -64,10 +68,10 @@ nav {
 }
 
 .logo {
-	color: black;
-	font-size: 1.7rem;
+	color: rgb(248, 139, 15);
+	font-size: 2rem;
 	letter-spacing: 3px;
-	text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.507);
+	text-shadow: 2px 2px 2px rgb(255, 0, 0);
 	padding: 7px;
 }
 
@@ -117,19 +121,21 @@ nav {
 	transform: scaleX(1);
 }
 
-/* animation: drop 1.5s ease; */
+.content {
+	animation: drop 1.5s ease;
+}
 
-/* @keyframes drop {
+@keyframes drop {
 	0% {
 		opacity: 0;
-		transform: translateY(-500px);
+		transform: translateY(-50px);
 	}
 
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
 	}
-} */
+}
 
 @media screen and (max-width: 400px) {
 	main h1 {

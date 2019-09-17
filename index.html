@@ -1,100 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Testing Page</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./section.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Testing Page</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="stylesheet" href="./section.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
-
-<body>
-	<header>
-		<div class="logo-container">
-			<img src="./img/rapid_logo.jpeg" alt="car" />
-			<h2 class="logo">RAPID INFOTECH</h2>
-		</div>
-		<nav>
-			<ul class="nav-links">
-				<li><a class="nav-link active" href="#">HOME</a></li>
-				<li><a class="nav-link" href="#">PRODUCTS</a></li>
-				<li><a class="nav-link" href="#">SERVICES</a></li>
-				<li><a class="nav-link" href="#">ABOUT</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<div class="intro">
-		<div class="upper">
-			<svg width="120" height="124" viewBox="0 0 120 124" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<g filter="url(#filter0_df)">
-					<rect x="4" y="116" width="112" height="7" transform="rotate(-90 4 116)" fill="#F7B272" />
-					<rect x="4" y="4" width="112" height="7" fill="#F7B272" />
-				</g>
-				<defs>
-					<filter id="filter0_df" x="0" y="0" width="120" height="124" filterUnits="userSpaceOnUse"
-						color-interpolation-filters="sRGB">
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feColorMatrix in="SourceAlpha" type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-						<feOffset dy="4" />
-						<feGaussianBlur stdDeviation="2" />
-						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-						<feGaussianBlur stdDeviation="2" result="effect2_foregroundBlur" />
-					</filter>
-				</defs>
-			</svg>
-		</div>
-		<div class="lower">
-			<svg width="120" height="124" viewBox="0 0 120 124" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<g filter="url(#filter0_df)">
-					<rect x="116" y="4" width="112" height="7" transform="rotate(90 116 4)" fill="#F7B272" />
-					<rect x="116" y="116" width="112" height="7" transform="rotate(-180 116 116)" fill="#F7B272" />
-				</g>
-				<defs>
-					<filter id="filter0_df" x="0" y="0" width="120" height="124" filterUnits="userSpaceOnUse"
-						color-interpolation-filters="sRGB">
-						<feFlood flood-opacity="0" result="BackgroundImageFix" />
-						<feColorMatrix in="SourceAlpha" type="matrix"
-							values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-						<feOffset dy="4" />
-						<feGaussianBlur stdDeviation="2" />
-						<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-						<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow" />
-						<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape" />
-						<feGaussianBlur stdDeviation="2" result="effect2_foregroundBlur" />
-					</filter>
-				</defs>
-			</svg>
-
-		</div>
-
-
-
-		<div class="content">
-			<div class="introduction">
-				Rapid Infotech is a complete it solution provider for Hardware &
-				Networking, and Software development. We are based in Gurgaon. We have
-				been delivering our services to our clients for over 2 years. We have
-				the knowledge, experience and technical expertise to help your business.
-				We feel proud in introducing ourselves as one of the professional IT
-				Services provider company
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./img/rapid_logo.jpeg" alt="car" />
+				<h2 class="logo">RAPID INFOTECH</h2>
 			</div>
-			<div class="img1">
-				<img src="./img/bump-collaboration-colleagues-1068523.jpg" alt="img" />
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link active" href="#">HOME</a></li>
+					<li><a class="nav-link" href="#">PRODUCTS</a></li>
+					<li><a class="nav-link" href="#">ABOUT US</a></li>
+					<li><a class="nav-link" href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="intro">
+			<div class="content">
+				<div class="introduction">
+					Rapid Infotech is a complete it solution provider for Hardware &
+					Networking, and Software development. We are based in Gurgaon. We have
+					been delivering our services to our clients for over 2 years. We have
+					the knowledge, experience and technical expertise to help your
+					business. We feel proud in introducing ourselves as one of the
+					professional IT Services provider company.
+
+					<div class="upper">
+						<svg
+							width="120"
+							height="124"
+							viewBox="0 0 120 124"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g filter="url(#filter0_df)">
+								<rect
+									x="4"
+									y="116"
+									width="112"
+									height="7"
+									transform="rotate(-90 4 116)"
+									fill="#F7B272"
+								/>
+								<rect x="4" y="4" width="112" height="7" fill="#F7B272" />
+							</g>
+							<defs>
+								<filter
+									id="filter0_df"
+									x="0"
+									y="0"
+									width="120"
+									height="124"
+									filterUnits="userSpaceOnUse"
+									color-interpolation-filters="sRGB"
+								>
+									<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<feColorMatrix
+										in="SourceAlpha"
+										type="matrix"
+										values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+									/>
+									<feOffset dy="4" />
+									<feGaussianBlur stdDeviation="2" />
+									<feColorMatrix
+										type="matrix"
+										values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+									/>
+									<feBlend
+										mode="normal"
+										in2="BackgroundImageFix"
+										result="effect1_dropShadow"
+									/>
+									<feBlend
+										mode="normal"
+										in="SourceGraphic"
+										in2="effect1_dropShadow"
+										result="shape"
+									/>
+									<feGaussianBlur
+										stdDeviation="2"
+										result="effect2_foregroundBlur"
+									/>
+								</filter>
+							</defs>
+						</svg>
+					</div>
+					<div class="lower">
+						<svg
+							width="120"
+							height="124"
+							viewBox="0 0 120 124"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g filter="url(#filter0_df)">
+								<rect
+									x="116"
+									y="4"
+									width="112"
+									height="7"
+									transform="rotate(90 116 4)"
+									fill="#F7B272"
+								/>
+								<rect
+									x="116"
+									y="116"
+									width="112"
+									height="7"
+									transform="rotate(-180 116 116)"
+									fill="#F7B272"
+								/>
+							</g>
+							<defs>
+								<filter
+									id="filter0_df"
+									x="0"
+									y="0"
+									width="120"
+									height="124"
+									filterUnits="userSpaceOnUse"
+									color-interpolation-filters="sRGB"
+								>
+									<feFlood flood-opacity="0" result="BackgroundImageFix" />
+									<feColorMatrix
+										in="SourceAlpha"
+										type="matrix"
+										values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+									/>
+									<feOffset dy="4" />
+									<feGaussianBlur stdDeviation="2" />
+									<feColorMatrix
+										type="matrix"
+										values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+									/>
+									<feBlend
+										mode="normal"
+										in2="BackgroundImageFix"
+										result="effect1_dropShadow"
+									/>
+									<feBlend
+										mode="normal"
+										in="SourceGraphic"
+										in2="effect1_dropShadow"
+										result="shape"
+									/>
+									<feGaussianBlur
+										stdDeviation="2"
+										result="effect2_foregroundBlur"
+									/>
+								</filter>
+							</defs>
+						</svg>
+					</div>
+				</div>
+				<div class="card">
+					<div class="card_part card_part-one"></div>
+
+					<!-- Photo 2 -->
+					<div class="card_part card_part-two"></div>
+
+					<!-- Photo 3 -->
+					<div class="card_part card_part-three"></div>
+
+					<!-- Photo 4 -->
+					<div class="card_part card_part-four"></div>
+					<div class="card_part card_part-five"></div>
+					<div class="card_part card_part-six"></div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<section class="two">2</section>
-	<section class="three">3</section>
+		<section class="two">2</section>
+		<section class="three">3</section>
 
-	<script src="./main.js"></script>
-</body>
-
+		<script src="./main.js"></script>
+	</body>
 </html>
