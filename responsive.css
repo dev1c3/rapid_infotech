@@ -1,0 +1,73 @@
+@media screen and (max-width: 400px) {
+    main h1 {
+        font-size: 18px;
+        margin-top: 500px;
+    }
+
+    .nav-links {
+
+        height: 40vh;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .upper,
+    .lower {
+        display: none;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .content {
+        margin-top: -80px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    main h1 {
+        font-size: 18px;
+        margin-top: 500px;
+    }
+
+    .nav-links {
+        height: 40vh;
+    }
+
+    .logo-container {
+        flex-direction: column;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .upper,
+    .lower {
+        display: none;
+    }
+
+    .card {
+        margin-top: 50px;
+    }
+
+    .content {
+        margin-top: -80px;
+    }
+}

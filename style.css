@@ -19,35 +19,33 @@ body {
 
 header {
 	display: flex;
-	width: 92vw;
+	width: 100vw;
 	margin: auto;
-	height: 20vh;
+	height: 13vh;
 	align-items: center;
 	position: fixed;
 	top: 0px;
-	left: 50%;
-	transform: translateX(-50%);
 	z-index: 999;
-	background-color: white;
+	background-color: rgb(0, 0, 0);
 }
 
 .nav-links {
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
+	color: white;
+}
+
+
+
+.active {
+	border-bottom: 2px solid var(--color1);
 }
 
 .nav-link {
 	text-decoration: none;
-	color: rgb(0, 0, 0);
-	font-size: 20px;
-	text-transform: uppercase;
-	padding: 10px;
-	transition: 0.5s;
-}
-
-.active {
-	border-bottom: 2px solid var(--color1);
+	color: white;
+	position: relative;
 }
 
 nav {
@@ -59,51 +57,30 @@ nav {
 	flex: 1;
 	cursor: pointer;
 	align-items: center;
+	margin-left: 30px;
 }
 
 .logo-container img {
-	width: 150px;
-	height: 100px;
+	width: 100px;
+	height: 80px;
 	/* filter: drop-shadow(0px 5px 3px rgb(255, 255, 255)); */
 }
 
 .logo {
-	color: rgb(248, 139, 15);
+	color: rgb(255, 255, 255);
 	font-size: 2rem;
 	letter-spacing: 3px;
-	text-shadow: 2px 2px 2px rgb(255, 0, 0);
 	padding: 7px;
 }
 
-.one {
-	margin-top: 20vh;
-}
 
-.one,
-.two,
-.three {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	background-color: rgb(255, 255, 255);
-	color: rgb(37, 26, 134);
-	width: 80%;
-	margin: auto;
-}
 
-/* border animation */
-
-.nav-link {
-	color: rgb(0, 0, 0);
-	position: relative;
-}
 
 .nav-link:after {
 	position: absolute;
 	left: 0%;
 	content: "";
-	height: 39px;
+	height: 24px;
 	width: 100%;
 	border-bottom: solid 2px var(--color1);
 
@@ -121,9 +98,15 @@ nav {
 	transform: scaleX(1);
 }
 
+.random {
+	background-color: antiquewhite;
+	height: 500px;
+}
+
+/* 
 .content {
 	animation: drop 1.5s ease;
-}
+} */
 
 @keyframes drop {
 	0% {
@@ -134,65 +117,5 @@ nav {
 	100% {
 		opacity: 1;
 		transform: translateY(0px);
-	}
-}
-
-@media screen and (max-width: 400px) {
-	main h1 {
-		font-size: 18px;
-		margin-top: 500px;
-	}
-
-	.nav-links {
-		flex-direction: column;
-		height: 40vh;
-	}
-
-	.logo-container {
-		flex-direction: column;
-	}
-
-	header {
-		flex-direction: column;
-	}
-
-	.cover {
-		height: 100vh;
-		width: 1000px;
-	}
-
-	.imgdrop {
-		width: 100px;
-		height: 70px;
-	}
-}
-
-@media screen and (max-width: 850px) {
-	main h1 {
-		font-size: 18px;
-		margin-top: 500px;
-	}
-
-	.nav-links {
-		flex-direction: column;
-		height: 40vh;
-	}
-
-	.logo-container {
-		flex-direction: column;
-	}
-
-	header {
-		flex-direction: column;
-	}
-
-	.cover {
-		height: 100vh;
-		width: 1000px;
-	}
-
-	.imgdrop {
-		width: 100px;
-		height: 70px;
 	}
 }
