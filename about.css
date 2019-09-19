@@ -12,6 +12,7 @@
     font-size: 1.4rem;
     position: relative;
     height: 40px;
+    margin-top: 30px;
 }
 
 .abt-top::before {
@@ -21,8 +22,8 @@
     transform: translate(-50%);
     bottom: 0;
     height: 1px;
-    width: 50%;
-    border-bottom: 3px solid black;
+    width: 30%;
+    border-bottom: 4px dotted rgb(0, 0, 0);
 }
 
 .abt-bot {
@@ -30,4 +31,5 @@
     width: 80%;
     font-weight: lighter;
     word-spacing: 7px;
+    margin-top: 30px;
 }
