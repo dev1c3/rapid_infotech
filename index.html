@@ -1,154 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Testing Page</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="stylesheet" href="./section.css" />
+		<link rel="stylesheet" href="./responsive.css" />
+		<link rel="stylesheet" href="./about.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Testing Page</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="./style.css" />
-	<link rel="stylesheet" href="./section.css" />
-	<link rel="stylesheet" href="./responsive.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./img/NEW RAPID LOGO white.png" alt="car" />
+				<h2 class="logo">RAPID INFOTECH</h2>
+			</div>
+			<nav>
+				<ul class="nav-links">
+					<li><a class="nav-link active" href="#">HOME</a></li>
+					<li><a class="nav-link" href="#">PRODUCTS</a></li>
+					<li><a class="nav-link" href="#">ABOUT US</a></li>
+					<li><a class="nav-link" href="#">CONTACT</a></li>
+				</ul>
+			</nav>
+		</header>
 
-<body>
-	<header>
-		<div class="logo-container">
-			<img src="./img/rapid_logo.jpeg" alt="car" />
-			<h2 class="logo">RAPID INFOTECH</h2>
-		</div>
-		<nav>
-			<ul class="nav-links">
-				<li><a class="nav-link active" href="#">HOME</a></li>
-				<li><a class="nav-link" href="#">PRODUCTS</a></li>
-				<li><a class="nav-link" href="#">ABOUT US</a></li>
-				<li><a class="nav-link" href="#">CONTACT</a></li>
-			</ul>
-		</nav>
-	</header>
-
-	<!-- 
+		<!-- 
 Please note, that you can apply .m--global-blending-active to .fnc-slider 
 to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-	<div class="demo-cont">
-		<!-- slider start -->
-		<div class="fnc-slider example-slider">
-			<div class="fnc-slider__slides">
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-green m--active-slide">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>COMPUTING</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>HARDWARE SERVICES</span>
-								</div>
-							</h2>
-						</div>
-					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-dark">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>SECURITY AND SURVEILLANCE</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>SOLUTIONS</span>
-								</div>
-							</h2>
+		<div class="demo-cont">
+			<!-- slider start -->
+			<div class="fnc-slider example-slider">
+				<div class="fnc-slider__slides">
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-green m--active-slide">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content first">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>COMPUTING</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>HARDWARE SERVICES</span>
+									</div>
+								</h2>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-red">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>NETWORK</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>INFRASTRUCTURE</span>
-								</div>
-							</h2>
-						</div>
-					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-blue">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>SOFTWARE</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>SOLUTIONS</span>
-								</div>
-							</h2>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-dark">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content second">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>SECURITY</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>SOLUTIONS</span>
+									</div>
+								</h2>
+							</div>
 						</div>
 					</div>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-red">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content third">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>NETWORK</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>INFRASTRUCTURE</span>
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-blue">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content fourth">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>DATA CENTER SETUP</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>AND OPTIMIZATION</span>
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					<!-- slide end -->
 				</div>
-				<!-- slide end -->
+				<nav class="fnc-nav">
+					<div class="fnc-nav__bgs">
+						<div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+						<div class="fnc-nav__bg m--navbg-dark"></div>
+						<div class="fnc-nav__bg m--navbg-red"></div>
+						<div class="fnc-nav__bg m--navbg-blue"></div>
+					</div>
+					<div class="fnc-nav__controls">
+						<button class="fnc-nav__control">
+							COMPUTING
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							SECURITY
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							NETWORKING
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							SOFTWARE
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+					</div>
+				</nav>
 			</div>
-			<nav class="fnc-nav">
-				<div class="fnc-nav__bgs">
-					<div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
-					<div class="fnc-nav__bg m--navbg-dark"></div>
-					<div class="fnc-nav__bg m--navbg-red"></div>
-					<div class="fnc-nav__bg m--navbg-blue"></div>
-				</div>
-				<div class="fnc-nav__controls">
-					<button class="fnc-nav__control">
-						COMPUTING
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						SECURITY
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						NETWORKING
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						SOFTWARE
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-				</div>
-			</nav>
+			<!-- slider end -->
 		</div>
-		<!-- slider end -->
-	</div>
 
-	<div class="random">delet</div>
+		<div class="about">
+			<div class="abt-top">ABOUT US</div>
+			<div class="abt-bot">
+				Rapid Infotech is a complete it solution provider for Hardware &
+				Networking, and Software development. We are based in Gurgaon. We have
+				been delivering our services to our clients for over 2 years. We have
+				the knowledge, experience and technical expertise to help your business.
+				We feel proud in introducing ourselves as one of the professional IT
+				Services provider company.
+			</div>
+		</div>
 
-	<script src="./main.js"></script>
-</body>
-
+		<script src="./main.js"></script>
+	</body>
 </html>

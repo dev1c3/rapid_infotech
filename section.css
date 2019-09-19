@@ -8,7 +8,7 @@
 	overflow: hidden;
 	box-sizing: border-box;
 	position: relative;
-	height: 100vh;
+	height: 78vh;
 }
 
 .fnc-slider *,
@@ -26,27 +26,27 @@
 }
 
 .fnc-slider .m--blend-dark .fnc-slide__inner {
-	background-color: #8a8a8a;
+	background-color: #eed233;
 }
 
 .fnc-slider .m--blend-dark .fnc-slide__mask-inner {
-	background-color: #575757;
+	background-color: #eed233;
 }
 
 .fnc-slider .m--navbg-dark {
-	background-color: #575757;
+	background-color: #95810e;
 }
 
 .fnc-slider .m--blend-green .fnc-slide__inner {
-	background-color: #6d9b98;
+	background-color: #34e4e4;
 }
 
 .fnc-slider .m--blend-green .fnc-slide__mask-inner {
-	background-color: #42605E;
+	background-color: #1787bb;
 }
 
 .fnc-slider .m--navbg-green {
-	background-color: #42605E;
+	background-color: #0e5050;
 }
 
 .fnc-slider .m--blend-red .fnc-slide__inner {
@@ -62,17 +62,18 @@
 }
 
 .fnc-slider .m--blend-blue .fnc-slide__inner {
-	background-color: #59aecb;
+	background-color: #404747;
 }
 
 .fnc-slider .m--blend-blue .fnc-slide__mask-inner {
-	background-color: #2D7791;
+	background-color: rgba(11, 119, 20, 0.726);
 }
 
 .fnc-slider .m--navbg-blue {
-	background-color: #2D7791;
+	background-color: rgb(51, 93, 11);
 }
 
+/* FULL SLIDE  */
 .fnc-slide {
 	overflow: hidden;
 	position: absolute;
@@ -207,26 +208,52 @@
 .fnc-slide__content {
 	z-index: 2;
 	position: absolute;
-	left: 40%;
-	top: 40%;
+
+}
+
+
+.first {
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+}
+
+.second {
+	z-index: 2;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+}
+
+.third {
+	z-index: 2;
+	position: absolute;
+	left: 60%;
+	top: 50%;
+}
+
+.fourth {
+	z-index: 2;
+	position: absolute;
+	left: 10%;
+	top: 50%;
 }
 
 .fnc-slide__heading {
-	margin-bottom: 10px;
+
 	text-transform: uppercase;
 }
 
 .fnc-slide__heading-line {
 	overflow: hidden;
 	position: relative;
-	padding-right: 20px;
-	font-size: 100px;
-	color: #fff;
-	word-spacing: 10px;
-}
 
-.fnc-slide__heading-line:nth-child(2) {
-	padding-left: 30px;
+	font-size: 50px;
+	color: #fff;
+	text-shadow: 1px 1px 1px black;
+	word-spacing: 10px;
+
 }
 
 .m--before-sliding .fnc-slide__heading-line {
@@ -462,34 +489,14 @@ body {
 .demo-cont {
 	overflow: hidden;
 	position: relative;
-	height: 100vh;
+	height: 78vh;
 	overflow: visible;
 	-webkit-perspective: 1500px;
 	perspective: 1500px;
 	background: #000;
 }
 
-.demo-cont__credits {
-	box-sizing: border-box;
-	overflow-y: auto;
-	z-index: 1;
-	position: absolute;
-	right: 0;
-	top: 0;
-	width: 400px;
-	height: 100%;
-	padding: 20px 10px 30px;
-	background: #303030;
-	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	color: #fff;
-	text-align: center;
-	transition: -webkit-transform 0.7s;
-	transition: transform 0.7s;
-	transition: transform 0.7s, -webkit-transform 0.7s;
-	-webkit-transform: translate3d(100%, 0, 0) rotateY(-45deg);
-	transform: translate3d(100%, 0, 0) rotateY(-45deg);
-	will-change: transform;
-}
+
 
 .credits-active .demo-cont__credits {
 	transition: -webkit-transform 0.7s 0.2333333333s;
@@ -582,17 +589,25 @@ body {
 
 .example-slider .fnc-slide-1 .fnc-slide__inner,
 .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/blackwidow.jpg");
+	background-image: url("./img/PERSONAL-COMPUTING-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .example-slider .fnc-slide-2 .fnc-slide__inner,
 .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/captainamerica.jpg");
+	background-image: url("./img/securityservice.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .example-slider .fnc-slide-3 .fnc-slide__inner,
 .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/ironman-alt.jpg");
+	background-image: url("./img/networking.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left;
+
 }
 
 .example-slider .fnc-slide-3 .fnc-slide__inner:before {
@@ -607,7 +622,9 @@ body {
 
 .example-slider .fnc-slide-4 .fnc-slide__inner,
 .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-	background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/thor.jpg");
+	background-image: url("./img/data\ center.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .example-slider .fnc-slide-4 .fnc-slide__inner:before {
