@@ -195,3 +195,5 @@ document.querySelector(".demo-cont__credits-close").addEventListener("click", fu
 document.querySelector(".js-activate-global-blending").addEventListener("click", function () {
   document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
 });
+
+//reveal on scrolll

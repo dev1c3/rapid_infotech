@@ -1,35 +1,35 @@
 .about {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 22vh;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 22vh;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 .abt-top {
-    font-size: 1.4rem;
-    position: relative;
-    height: 40px;
-    margin-top: 30px;
+	font-size: 1.4rem;
+	position: relative;
+	height: 40px;
+	margin-top: 30px;
 }
 
 .abt-top::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0;
-    height: 1px;
-    width: 30%;
-    border-bottom: 4px dotted rgb(0, 0, 0);
+	content: "";
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	bottom: 0;
+	height: 1px;
+	width: 30%;
+	border-bottom: 4px dotted rgb(0, 0, 0);
 }
 
 .abt-bot {
-    font-size: 1.1rem;
-    width: 80%;
-    font-weight: lighter;
-    word-spacing: 7px;
-    margin-top: 30px;
+	font-size: 16px;
+	width: 80%;
+	font-weight: lighter;
+	word-spacing: 7px;
+	margin-top: 30px;
 }
