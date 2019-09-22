@@ -1,0 +1,78 @@
+.alliance {
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.alliance img {
+    width: 200px;
+    height: 130px;
+    padding: 30px;
+    margin-top: -30px;
+}
+
+.logo1 img {
+    height: 150px;
+    width: 170px;
+}
+
+.logo2 img {
+    height: 160px;
+    width: 190px;
+}
+
+.logo3 img {
+    height: 130px;
+}
+
+.logo4 img {
+    height: 110px;
+    width: 180px;
+}
+
+.logo5 img {}
+
+.logo6 img {
+    width: 220px;
+    height: 150px;
+}
+
+.logo7 img {}
+
+.logo8 img {}
+
+.logo9 img {
+    width: 220px;
+    height: 220px;
+    margin-top: -70px;
+}
+
+.logo10 img {
+    width: 220px;
+    height: 150px;
+}
+
+.logo11 img {
+    height: 100px;
+    width: 180px;
+}
+
+.logo12 img {
+    height: 115px;
+    width: 190px;
+}
+
+.logo13 img {
+    height: 120px;
+    width: 230px;
+}
+
+.logo14 img {}
+
+.logo15 img {
+    height: 90px;
+    width: 180px;
+    margin-left: 20px;
+}

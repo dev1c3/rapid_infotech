@@ -33,12 +33,21 @@
     .content {
         margin-top: -80px;
     }
+
+    .alliance {
+        flex-direction: column;
+    }
+
+    .demo-cont {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 850px) {
 
     header {
         flex-direction: column;
+        width: 100vw;
     }
 
     main h1 {
@@ -70,4 +79,26 @@
     .content {
         margin-top: -80px;
     }
+
+    .alliance {
+        flex-direction: column;
+    }
+
+    .demo-cont {
+        display: none;
+    }
+
+    .mission {
+        flex-direction: column;
+        height: 50px;
+    }
+
+    .mission img {
+        display: none;
+    }
+
+    .our-mission {
+        height: 30vh;
+    }
+
 }

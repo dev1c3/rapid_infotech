@@ -34,7 +34,7 @@
 }
 
 .fnc-slider .m--navbg-one {
-	background-color: #000000;
+	background: linear-gradient(to right, rgb(47, 105, 172), rgb(158, 47, 172));
 }
 
 /* .fnc-slider .m--blend-two .fnc-slide__inner {
@@ -46,7 +46,7 @@
 }
 
 .fnc-slider .m--navbg-two {
-	background-color: #1787bb;
+	background: linear-gradient(to right, #363634, rgb(214, 213, 143));
 }
 
 /* .fnc-slider .m--blend-three .fnc-slide__inner {
@@ -58,7 +58,7 @@
 }
 
 .fnc-slider .m--navbg-three {
-	background-color: #d63348;
+	background: linear-gradient(to right, rgb(136, 43, 7), rgb(226, 170, 16));
 }
 
 /* .fnc-slider .m--blend-four .fnc-slide__inner {
@@ -67,22 +67,22 @@
 
 
 .fnc-slider .m--navbg-four {
-	background-color: rgb(66, 51, 102);
+	background: linear-gradient(to right, rgb(15, 76, 173), rgb(231, 112, 96));
 }
 
 .fnc-slider .m--blend-four .fnc-slide__mask-inner {
 	background-color: rgb(184, 187, 21);
 }
 
-/* .fnc-slider .m--blend-five .fnc-slide__inner {
+.fnc-slider .m--blend-five .fnc-slide__inner {
 	background-color: #cfdb1c;
-} */
+}
 
 
 
 
 .fnc-slider .m--navbg-five {
-	background-color: rgba(38, 163, 80, 0.87);
+	background: linear-gradient(to right, rgb(62, 34, 85), rgb(213, 152, 231));
 }
 
 /* .fnc-slider .m--blend-five .fnc-slide__inner {
@@ -96,13 +96,13 @@
 } */
 
 
-.fnc-slider .m--blend-six .fnc-slide__mask-inner {
+/* .fnc-slider .m--blend-six .fnc-slide__mask-inner {
 	background-color: rgba(235, 223, 208, 0.726);
 }
 
 .fnc-slider .m--navbg-six {
 	background-color: rgb(118, 19, 143);
-}
+} */
 
 /* FULL SLIDE  */
 .fnc-slide {
@@ -198,7 +198,7 @@
 	opacity: 0;
 }
 
-.fnc-slide__mask-inner {
+/* .fnc-slide__mask-inner {
 	z-index: -1;
 	position: absolute;
 	left: 50%;
@@ -213,7 +213,7 @@
 	-webkit-transform-origin: 50% 16.5vh;
 	transform-origin: 50% 16.5vh;
 	transition-timing-function: ease-in-out;
-}
+} */
 
 .m--before-sliding .fnc-slide__mask-inner {
 	-webkit-transform: translateY(0) rotate(10deg) translateX(-200px) translateZ(0);
@@ -267,23 +267,18 @@
 .fourth {
 	z-index: 2;
 	position: absolute;
-	left: 25%;
-	top: 65%;
+	left: 50%;
+	top: 50%;
 }
 
 .fifth {
 	z-index: 2;
 	position: absolute;
-	left: 15%;
-	top: 60%;
+	left: 55%;
+	top: 50%;
 }
 
-.sixth {
-	z-index: 2;
-	position: absolute;
-	left: 35%;
-	top: 20%;
-}
+
 
 .fnc-slide__heading {
 
@@ -295,8 +290,8 @@
 	position: relative;
 
 	font-size: 50px;
-	color: rgb(0, 0, 0);
-	text-shadow: 2px 2px 3px white;
+	color: rgb(255, 255, 255);
+
 	word-spacing: 10px;
 
 }
@@ -423,7 +418,7 @@
 .fnc-nav {
 	z-index: 5;
 	position: absolute;
-	right: 0;
+	right: -200px;
 	bottom: 0;
 }
 
@@ -479,6 +474,7 @@
 	outline: none;
 	cursor: pointer;
 	transition: background-color 0.5s;
+
 }
 
 .fnc-nav__control.m--active-control {
@@ -636,7 +632,8 @@ body {
 .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
 	background-image: url("./img/PERSONAL-COMPUTING-1.jpg");
 	background-size: contain;
-	background-repeat: round;
+	background-repeat: no-repeat;
+	background-position-y: 80px;
 }
 
 .example-slider .fnc-slide-2 .fnc-slide__inner,
@@ -652,6 +649,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: left;
+	background-position-y: 50px;
 
 }
 
@@ -667,9 +665,10 @@ body {
 
 .example-slider .fnc-slide-4 .fnc-slide__inner,
 .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-	background-image: url("./img/sofwarev2.png");
+	background-image: url("./img/displayfinal.png");
 	background-size: contain;
-	background-repeat: cover;
+	background-repeat: no-repeat;
+	background-position-y: 60px;
 }
 
 .example-slider .fnc-slide-4 .fnc-slide__inner:before {
@@ -686,9 +685,10 @@ body {
 
 .example-slider .fnc-slide-5 .fnc-slide__inner,
 .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
-	background-image: url("./img/display.jpg");
+	background-image: url("img/videoconfv4.png");
 	background-size: contain;
-	background-repeat: round;
+	background-repeat: no-repeat;
+	background-position-y: 60px;
 }
 
 .example-slider .fnc-slide-5 .fnc-slide__inner:before {
@@ -701,22 +701,7 @@ body {
 	background: rgba(0, 0, 0, 0.2);
 }
 
-.example-slider .fnc-slide-6 .fnc-slide__inner,
-.example-slider .fnc-slide-6 .fnc-slide__mask-inner {
-	background-image: url("img/videoconf.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-}
 
-.example-slider .fnc-slide-6 .fnc-slide__inner:before {
-	content: "";
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	background: rgba(0, 0, 0, 0.2);
-}
 
 .example-slider .fnc-slide__heading,
 .example-slider .fnc-slide__action-btn,

@@ -1,0 +1,63 @@
+footer {
+    background-color: rgb(29, 28, 28);
+    height: 50vh;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+
+.foot-left {
+    margin-left: -100px;
+    margin-top: -20px;
+}
+
+.foot-left h2 {
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.foot-logo img {
+    width: 250px;
+    height: 150px;
+}
+
+.foot-contact {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.foot-contact h5 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#address {
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+#number {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#email {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#timings {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.foot-contact i {
+    margin-right: 10px;
+}
