@@ -113,6 +113,10 @@ nav {
 	padding-left: 3px;
 }
 
+.fa-home {
+	color: white;
+}
+
 /* 
 .content {
 	animation: drop 1.5s ease;

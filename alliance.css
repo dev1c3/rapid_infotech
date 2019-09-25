@@ -1,78 +1,78 @@
-.alliance {
-    display: grid;
-    background-color: rgb(255, 255, 255);
-    grid-template-columns: auto auto auto auto auto;
-    margin-top: 50px;
-    justify-content: space-evenly;
+@-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
+    }
 }
 
-.alliance img {
-    width: 200px;
-    height: 130px;
-    padding: 30px;
-    margin-top: -30px;
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-250px * 7));
+        transform: translateX(calc(-250px * 7));
+    }
 }
 
-.logo1 img {
-    height: 150px;
-    width: 170px;
-}
-
-.logo2 img {
-    height: 160px;
-    width: 190px;
-}
-
-.logo3 img {
-    height: 130px;
-}
-
-.logo4 img {
-    height: 110px;
-    width: 180px;
-}
-
-.logo5 img {}
-
-.logo6 img {
-    width: 220px;
-    height: 150px;
-}
-
-.logo7 img {}
-
-.logo8 img {}
-
-.logo9 img {
-    width: 220px;
-    height: 220px;
-    margin-top: -70px;
-}
-
-.logo10 img {
-    width: 220px;
-    height: 150px;
-}
-
-.logo11 img {
+.slider {
+    background: white;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
     height: 100px;
-    width: 180px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 98vw;
+    height: 50vh;
 }
 
-.logo12 img {
-    height: 115px;
-    width: 190px;
+.slide-track {
+    margin-top: 120px;
 }
 
-.logo13 img {
-    height: 120px;
-    width: 230px;
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
 }
 
-.logo14 img {}
+.slider::after {
+    right: 0;
+    top: 0;
+    -webkit-transform: rotateZ(180deg);
+    transform: rotateZ(180deg);
+}
 
-.logo15 img {
-    height: 90px;
-    width: 180px;
-    margin-left: 20px;
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+    margin: 50px;
+}
+
+.slide img {
+    width: 150px;
+    height: 80px;
 }

@@ -274,8 +274,8 @@
 .fifth {
 	z-index: 2;
 	position: absolute;
-	left: 55%;
-	top: 50%;
+	left: 39%;
+	top: 60%;
 }
 
 
@@ -288,10 +288,10 @@
 .fnc-slide__heading-line {
 	overflow: hidden;
 	position: relative;
-
-	font-size: 50px;
-	color: rgb(255, 255, 255);
-
+	text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.301);
+	font-size: 30px;
+	color: rgb(0, 0, 0);
+	margin-top: 10px;
 	word-spacing: 10px;
 
 }
@@ -685,10 +685,10 @@ body {
 
 .example-slider .fnc-slide-5 .fnc-slide__inner,
 .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
-	background-image: url("img/videoconfv4.png");
-	background-size: contain;
+	background-image: url("img/vc2.jpg");
+	background-size: cover;
 	background-repeat: no-repeat;
-	background-position-y: 60px;
+	background-position-y: 90px;
 }
 
 .example-slider .fnc-slide-5 .fnc-slide__inner:before {
