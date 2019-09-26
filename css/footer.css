@@ -1,0 +1,67 @@
+footer {
+    background-color: rgb(29, 28, 28);
+    height: 40vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.foot-right {
+    margin-top: 50px;
+    margin-right: 30px;
+    border: 1px solid white;
+    height: 200px;
+    padding: 20px;
+}
+
+.foot-left h2 {
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+
+.foot-logo img {
+    width: 180px;
+    height: 100px;
+}
+
+.foot-contact {
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+#address {
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+#number {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#email {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#timings {
+    margin-top: 5px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.foot-contact i {
+    margin-right: 10px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    color: white;
+}

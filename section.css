@@ -1,3 +1,26 @@
+.overview {
+	z-index: 999;
+	font-size: 11px;
+	font-weight: lighter;
+	word-spacing: 3px;
+	/* font-style: italic; */
+	margin-top: 50px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 0.719);
+	padding: 20px;
+	letter-spacing: 1px;
+	font-style: italic;
+}
+
+.ss,
+.ns,
+.pd,
+.vc {
+	width: 600px;
+}
+
+
+
 .fnc {
 	/* you can add color names and their values here
   and then simply add classes like .m--blend-$colorName to .fnc-slide 
@@ -281,19 +304,18 @@
 
 
 .fnc-slide__heading {
-
+	width: 100%;
 	text-transform: uppercase;
 }
 
 .fnc-slide__heading-line {
 	overflow: hidden;
 	position: relative;
-	text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.301);
+	text-shadow: 2px 2px 3px rgba(29, 28, 28, 0.781);
 	font-size: 30px;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	background-attachment: fixed;
 	margin-top: 10px;
-	word-spacing: 10px;
-
 }
 
 .m--before-sliding .fnc-slide__heading-line {
@@ -685,7 +707,7 @@ body {
 
 .example-slider .fnc-slide-5 .fnc-slide__inner,
 .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
-	background-image: url("img/vc2.jpg");
+	background-image: url("./img/vc.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position-y: 90px;

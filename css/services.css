@@ -1,0 +1,123 @@
+.cover {
+    background: url("../img/antique-backdrop-background-164005.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 87vh;
+    margin-top: 13vh;
+    background-attachment: fixed;
+}
+
+.frame1 {
+    height: 87vh;
+    background-color: rgba(0, 0, 0, 0.856);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(223, 213, 213);
+    border: 50px solid rgb(0, 0, 0);
+}
+
+.solutions {
+    font-size: 4rem;
+    margin-top: 70px;
+    letter-spacing: 10px;
+    background: linear-gradient(to bottom right, rgb(119, 51, 6), rgb(158, 170, 52));
+    background-size: cover;
+    background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 2px solid transparent;
+}
+
+
+
+.wwd {
+    width: 85vw;
+    /* background-color: rgba(0, 0, 0, 0.527); */
+    height: 60vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+
+.wwd-top {
+    font-size: 2rem;
+    letter-spacing: 5px;
+}
+
+.wwd-content {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-weight: 100;
+}
+
+.frame2 {
+    height: 200vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+    background-color: rgba(173, 103, 10, 0.514);
+}
+
+.cover2 {
+    background: url("../img/antique-backdrop-background-164005.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 200vh;
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.hs-img {
+    padding: 30px;
+}
+
+.hs-img img {
+    width: 200px;
+    height: 160px;
+}
+
+.hs-top {
+    font-size: 1.3rem;
+}
+
+
+.hs-explore a {
+    transition: 0.4s;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(138, 21, 83);
+    padding: 10px 15px 10px 15px;
+}
+
+.hs-explore a:hover {
+    background-color: rgb(189, 172, 245);
+    color: black;
+    -webkit-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    transition: background-color 300ms linear;
+    transition: color 500ms linear;
+    border: 1px solid black;
+}
+
+.fa-angle-right {
+    margin-left: 5px;
+}
