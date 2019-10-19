@@ -30,7 +30,7 @@
     overflow: hidden;
     position: relative;
     width: 98vw;
-    height: 35vh;
+    height: 28vh;
 }
 
 .slide-track {
@@ -73,6 +73,6 @@
 }
 
 .slide img {
-    width: 150px;
-    height: 80px;
+    width: 120px;
+    height: 60px;
 }

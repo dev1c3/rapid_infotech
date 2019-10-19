@@ -1,8 +1,8 @@
 .overview {
 	z-index: 999;
-	font-size: 11px;
+	font-size: 15px;
 	font-weight: lighter;
-	word-spacing: 3px;
+	word-spacing: 4px;
 	/* font-style: italic; */
 	margin-top: 50px;
 	color: rgb(255, 255, 255);
@@ -10,6 +10,7 @@
 	padding: 20px;
 	letter-spacing: 1px;
 	font-style: italic;
+	text-transform: lowercase;
 }
 
 .ss,
@@ -270,35 +271,35 @@
 	z-index: 2;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 40%;
 }
 
 .second {
 	z-index: 2;
 	position: absolute;
 	left: 20%;
-	top: 50%;
+	top: 40%;
 }
 
 .third {
 	z-index: 2;
 	position: absolute;
 	left: 60%;
-	top: 50%;
+	top: 40%;
 }
 
 .fourth {
 	z-index: 2;
 	position: absolute;
 	left: 50%;
-	top: 50%;
+	top: 40%;
 }
 
 .fifth {
 	z-index: 2;
 	position: absolute;
 	left: 39%;
-	top: 60%;
+	top: 40%;
 }
 
 
@@ -312,10 +313,11 @@
 	overflow: hidden;
 	position: relative;
 	text-shadow: 2px 2px 3px rgba(29, 28, 28, 0.781);
-	font-size: 30px;
+	font-size: 60px;
 	color: rgb(255, 255, 255);
 	background-attachment: fixed;
 	margin-top: 10px;
+	text-transform: capitalize;
 }
 
 .m--before-sliding .fnc-slide__heading-line {

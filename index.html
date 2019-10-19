@@ -1,390 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Rapid Infotech</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./section.css" />
+		<link rel="stylesheet" href="./css/responsive.css" />
+		<link rel="stylesheet" href="./css/about.css" />
+		<link rel="stylesheet" href="./css/mission.css" />
+		<link rel="stylesheet" href="./css/alliance.css" />
+		<link rel="stylesheet" href="./css/footer.css" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>Testing Page</title>
-	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
-	<link rel="stylesheet" href="./css/style.css" />
-	<link rel="stylesheet" href="./section.css" />
-	<link rel="stylesheet" href="./css/responsive.css" />
-	<link rel="stylesheet" href="./css/about.css" />
-	<link rel="stylesheet" href="./css/mission.css" />
-	<link rel="stylesheet" href="./css/alliance.css" />
-	<link rel="stylesheet" href="./css/footer.css" />
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
+		<!-- commment -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 
-<body>
-	<header>
-		<div class="logo-container">
-			<img src="./img/NEW RAPID LOGO white.png" alt="car" />
-			<!-- <h2 class="logo">RAPID INFOTECH</h2> -->
-			<div class="brand">
-				<svg id="svg" width="917" height="61" viewBox="0 0 917 61" fill="none"
-					xmlns="http://www.w3.org/2000/svg">
-					<mask id="path-1-outside-1" maskUnits="userSpaceOnUse" x="0.440002" y="-0.503998" width="917"
-						height="62" fill="black">
-						<rect fill="white" x="0.440002" y="-0.503998" width="917" height="62" />
-						<path
-							d="M28.08 53L16.048 33.352H14.832H4.72V53H3.44V7.944H14.704C19.6533 7.944 23.3227 9.07467 25.712 11.336C28.144 13.5973 29.36 16.6907 29.36 20.616C29.36 24.2427 28.336 27.144 26.288 29.32C24.24 31.496 21.3173 32.7973 17.52 33.224L29.68 53H28.08ZM14.832 32.136C19.2267 32.136 22.512 31.0907 24.688 29C26.9067 26.9093 28.016 24.1147 28.016 20.616C28.016 13.0213 23.5787 9.224 14.704 9.224H4.72V32.136H14.832Z" />
-						<path
-							d="M97.53 40.584H75.258L70.522 53H69.05L85.754 9.288H87.034L103.674 53H102.202L97.53 40.584ZM97.082 39.432L86.394 11.336L75.706 39.432H97.082Z" />
-						<path
-							d="M171.68 20.36C171.68 24.4987 170.464 27.592 168.032 29.64C165.6 31.688 162.016 32.712 157.28 32.712H147.168V53H145.888V7.944H157.28C162.229 7.944 165.856 9.032 168.16 11.208C170.506 13.384 171.68 16.4347 171.68 20.36ZM157.28 31.368C161.888 31.368 165.216 30.408 167.264 28.488C169.354 26.568 170.4 23.8587 170.4 20.36C170.4 16.6907 169.376 13.9173 167.328 12.04C165.28 10.1627 161.93 9.224 157.28 9.224H147.168V31.368H157.28Z" />
-						<path d="M215.86 7.944V53H214.58V7.944H215.86Z" />
-						<path
-							d="M273.488 7.944C281.253 7.944 287.162 9.90667 291.216 13.832C295.269 17.7573 297.296 23.304 297.296 30.472C297.296 37.64 295.269 43.1867 291.216 47.112C287.162 51.0373 281.253 53 273.488 53H261.648V7.944H273.488ZM273.488 51.848C280.912 51.848 286.522 49.9707 290.32 46.216C294.117 42.4613 296.016 37.2133 296.016 30.472C296.016 23.7307 294.117 18.4827 290.32 14.728C286.522 10.9733 280.912 9.096 273.488 9.096H262.928V51.848H273.488Z" />
-						<path d="M396.188 7.944V53H394.908V7.944H396.188Z" />
-						<path
-							d="M472.503 53H471.223L443.255 10.312V53H441.975V8.008H443.255L471.223 50.632V8.008H472.503V53Z" />
-						<path
-							d="M540.309 7.944V9.096H519.573V29.896H538.389V31.048H519.573V53H518.293V7.944H540.309Z" />
-						<path
-							d="M603.076 53.512C598.938 53.512 595.226 52.552 591.94 50.632C588.698 48.6693 586.159 45.9387 584.324 42.44C582.49 38.9413 581.573 34.9733 581.573 30.536C581.573 26.0987 582.49 22.1307 584.324 18.632C586.159 15.1333 588.698 12.424 591.94 10.504C595.226 8.54133 598.938 7.56 603.076 7.56C607.215 7.56 610.906 8.54133 614.148 10.504C617.434 12.424 619.994 15.1333 621.828 18.632C623.663 22.1307 624.581 26.0987 624.581 30.536C624.581 34.9733 623.663 38.9413 621.828 42.44C619.994 45.9387 617.434 48.6693 614.148 50.632C610.906 52.552 607.215 53.512 603.076 53.512ZM603.076 52.36C606.831 52.36 610.244 51.4853 613.316 49.736C616.388 47.944 618.799 45.4053 620.548 42.12C622.34 38.792 623.237 34.9307 623.237 30.536C623.237 26.1413 622.34 22.3013 620.548 19.016C618.799 15.688 616.388 13.1493 613.316 11.4C610.244 9.608 606.831 8.712 603.076 8.712C599.322 8.712 595.908 9.608 592.836 11.4C589.764 13.1493 587.332 15.688 585.54 19.016C583.791 22.3013 582.917 26.1413 582.917 30.536C582.917 34.9307 583.791 38.792 585.54 42.12C587.332 45.4053 589.764 47.944 592.836 49.736C595.908 51.4853 599.322 52.36 603.076 52.36Z" />
-						<path d="M692.1 7.944V9.096H678.98V53H677.7V9.096H664.58V7.944H692.1Z" />
-						<path
-							d="M734.962 9.096V29.896H753.779V31.048H734.962V51.848H755.698V53H733.682V7.944H755.698V9.096H734.962Z" />
-						<path
-							d="M797.588 30.536C797.588 26.056 798.484 22.088 800.276 18.632C802.068 15.1333 804.563 12.4027 807.763 10.44C810.963 8.47734 814.569 7.496 818.579 7.496C823.827 7.496 828.158 8.712 831.571 11.144C835.027 13.576 837.545 16.9467 839.123 21.256H837.844C836.478 17.4587 834.153 14.408 830.867 12.104C827.582 9.8 823.486 8.648 818.579 8.648C814.91 8.648 811.582 9.544 808.596 11.336C805.609 13.0853 803.241 15.624 801.492 18.952C799.785 22.2373 798.932 26.0987 798.932 30.536C798.932 34.9307 799.785 38.7707 801.492 42.056C803.241 45.3413 805.609 47.88 808.596 49.672C811.625 51.4213 814.953 52.296 818.579 52.296C823.486 52.296 827.582 51.1653 830.867 48.904C834.153 46.6 836.478 43.5493 837.844 39.752H839.123C837.545 44.0613 835.027 47.432 831.571 49.864C828.158 52.2533 823.827 53.448 818.579 53.448C814.569 53.448 810.963 52.488 807.763 50.568C804.563 48.6053 802.068 45.896 800.276 42.44C798.484 38.9413 797.588 34.9733 797.588 30.536Z" />
-						<path
-							d="M913.911 7.944V53H912.631V30.408H884.535V53H883.255V7.944H884.535V29.256H912.631V7.944H913.911Z" />
-					</mask>
-					<path
-						d="M28.08 53L16.048 33.352H14.832H4.72V53H3.44V7.944H14.704C19.6533 7.944 23.3227 9.07467 25.712 11.336C28.144 13.5973 29.36 16.6907 29.36 20.616C29.36 24.2427 28.336 27.144 26.288 29.32C24.24 31.496 21.3173 32.7973 17.52 33.224L29.68 53H28.08ZM14.832 32.136C19.2267 32.136 22.512 31.0907 24.688 29C26.9067 26.9093 28.016 24.1147 28.016 20.616C28.016 13.0213 23.5787 9.224 14.704 9.224H4.72V32.136H14.832Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M97.53 40.584H75.258L70.522 53H69.05L85.754 9.288H87.034L103.674 53H102.202L97.53 40.584ZM97.082 39.432L86.394 11.336L75.706 39.432H97.082Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M171.68 20.36C171.68 24.4987 170.464 27.592 168.032 29.64C165.6 31.688 162.016 32.712 157.28 32.712H147.168V53H145.888V7.944H157.28C162.229 7.944 165.856 9.032 168.16 11.208C170.506 13.384 171.68 16.4347 171.68 20.36ZM157.28 31.368C161.888 31.368 165.216 30.408 167.264 28.488C169.354 26.568 170.4 23.8587 170.4 20.36C170.4 16.6907 169.376 13.9173 167.328 12.04C165.28 10.1627 161.93 9.224 157.28 9.224H147.168V31.368H157.28Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path d="M215.86 7.944V53H214.58V7.944H215.86Z" stroke="white" stroke-width="6"
-						mask="url(#path-1-outside-1)" />
-					<path
-						d="M273.488 7.944C281.253 7.944 287.162 9.90667 291.216 13.832C295.269 17.7573 297.296 23.304 297.296 30.472C297.296 37.64 295.269 43.1867 291.216 47.112C287.162 51.0373 281.253 53 273.488 53H261.648V7.944H273.488ZM273.488 51.848C280.912 51.848 286.522 49.9707 290.32 46.216C294.117 42.4613 296.016 37.2133 296.016 30.472C296.016 23.7307 294.117 18.4827 290.32 14.728C286.522 10.9733 280.912 9.096 273.488 9.096H262.928V51.848H273.488Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path d="M396.188 7.944V53H394.908V7.944H396.188Z" stroke="white" stroke-width="6"
-						mask="url(#path-1-outside-1)" />
-					<path
-						d="M472.503 53H471.223L443.255 10.312V53H441.975V8.008H443.255L471.223 50.632V8.008H472.503V53Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path d="M540.309 7.944V9.096H519.573V29.896H538.389V31.048H519.573V53H518.293V7.944H540.309Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M603.076 53.512C598.938 53.512 595.226 52.552 591.94 50.632C588.698 48.6693 586.159 45.9387 584.324 42.44C582.49 38.9413 581.573 34.9733 581.573 30.536C581.573 26.0987 582.49 22.1307 584.324 18.632C586.159 15.1333 588.698 12.424 591.94 10.504C595.226 8.54133 598.938 7.56 603.076 7.56C607.215 7.56 610.906 8.54133 614.148 10.504C617.434 12.424 619.994 15.1333 621.828 18.632C623.663 22.1307 624.581 26.0987 624.581 30.536C624.581 34.9733 623.663 38.9413 621.828 42.44C619.994 45.9387 617.434 48.6693 614.148 50.632C610.906 52.552 607.215 53.512 603.076 53.512ZM603.076 52.36C606.831 52.36 610.244 51.4853 613.316 49.736C616.388 47.944 618.799 45.4053 620.548 42.12C622.34 38.792 623.237 34.9307 623.237 30.536C623.237 26.1413 622.34 22.3013 620.548 19.016C618.799 15.688 616.388 13.1493 613.316 11.4C610.244 9.608 606.831 8.712 603.076 8.712C599.322 8.712 595.908 9.608 592.836 11.4C589.764 13.1493 587.332 15.688 585.54 19.016C583.791 22.3013 582.917 26.1413 582.917 30.536C582.917 34.9307 583.791 38.792 585.54 42.12C587.332 45.4053 589.764 47.944 592.836 49.736C595.908 51.4853 599.322 52.36 603.076 52.36Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path d="M692.1 7.944V9.096H678.98V53H677.7V9.096H664.58V7.944H692.1Z" stroke="white"
-						stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M734.962 9.096V29.896H753.779V31.048H734.962V51.848H755.698V53H733.682V7.944H755.698V9.096H734.962Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M797.588 30.536C797.588 26.056 798.484 22.088 800.276 18.632C802.068 15.1333 804.563 12.4027 807.763 10.44C810.963 8.47734 814.569 7.496 818.579 7.496C823.827 7.496 828.158 8.712 831.571 11.144C835.027 13.576 837.545 16.9467 839.123 21.256H837.844C836.478 17.4587 834.153 14.408 830.867 12.104C827.582 9.8 823.486 8.648 818.579 8.648C814.91 8.648 811.582 9.544 808.596 11.336C805.609 13.0853 803.241 15.624 801.492 18.952C799.785 22.2373 798.932 26.0987 798.932 30.536C798.932 34.9307 799.785 38.7707 801.492 42.056C803.241 45.3413 805.609 47.88 808.596 49.672C811.625 51.4213 814.953 52.296 818.579 52.296C823.486 52.296 827.582 51.1653 830.867 48.904C834.153 46.6 836.478 43.5493 837.844 39.752H839.123C837.545 44.0613 835.027 47.432 831.571 49.864C828.158 52.2533 823.827 53.448 818.579 53.448C814.569 53.448 810.963 52.488 807.763 50.568C804.563 48.6053 802.068 45.896 800.276 42.44C798.484 38.9413 797.588 34.9733 797.588 30.536Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-					<path
-						d="M913.911 7.944V53H912.631V30.408H884.535V53H883.255V7.944H884.535V29.256H912.631V7.944H913.911Z"
-						stroke="white" stroke-width="6" mask="url(#path-1-outside-1)" />
-				</svg>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
 
+	<body>
+		<header>
+			<div class="logo-container">
+				<img src="./img/NEW RAPID LOGO white.png" alt="car" />
+				<!-- <h2 class="logo">RAPID INFOTECH</h2> -->
+				<div class="brand">
+					<svg
+						id="svg"
+						width="917"
+						height="61"
+						viewBox="0 0 917 61"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<mask
+							id="path-1-outside-1"
+							maskUnits="userSpaceOnUse"
+							x="0.440002"
+							y="-0.503998"
+							width="917"
+							height="62"
+							fill="black"
+						>
+							<rect
+								fill="white"
+								x="0.440002"
+								y="-0.503998"
+								width="917"
+								height="62"
+							/>
+							<path
+								d="M28.08 53L16.048 33.352H14.832H4.72V53H3.44V7.944H14.704C19.6533 7.944 23.3227 9.07467 25.712 11.336C28.144 13.5973 29.36 16.6907 29.36 20.616C29.36 24.2427 28.336 27.144 26.288 29.32C24.24 31.496 21.3173 32.7973 17.52 33.224L29.68 53H28.08ZM14.832 32.136C19.2267 32.136 22.512 31.0907 24.688 29C26.9067 26.9093 28.016 24.1147 28.016 20.616C28.016 13.0213 23.5787 9.224 14.704 9.224H4.72V32.136H14.832Z"
+							/>
+							<path
+								d="M97.53 40.584H75.258L70.522 53H69.05L85.754 9.288H87.034L103.674 53H102.202L97.53 40.584ZM97.082 39.432L86.394 11.336L75.706 39.432H97.082Z"
+							/>
+							<path
+								d="M171.68 20.36C171.68 24.4987 170.464 27.592 168.032 29.64C165.6 31.688 162.016 32.712 157.28 32.712H147.168V53H145.888V7.944H157.28C162.229 7.944 165.856 9.032 168.16 11.208C170.506 13.384 171.68 16.4347 171.68 20.36ZM157.28 31.368C161.888 31.368 165.216 30.408 167.264 28.488C169.354 26.568 170.4 23.8587 170.4 20.36C170.4 16.6907 169.376 13.9173 167.328 12.04C165.28 10.1627 161.93 9.224 157.28 9.224H147.168V31.368H157.28Z"
+							/>
+							<path d="M215.86 7.944V53H214.58V7.944H215.86Z" />
+							<path
+								d="M273.488 7.944C281.253 7.944 287.162 9.90667 291.216 13.832C295.269 17.7573 297.296 23.304 297.296 30.472C297.296 37.64 295.269 43.1867 291.216 47.112C287.162 51.0373 281.253 53 273.488 53H261.648V7.944H273.488ZM273.488 51.848C280.912 51.848 286.522 49.9707 290.32 46.216C294.117 42.4613 296.016 37.2133 296.016 30.472C296.016 23.7307 294.117 18.4827 290.32 14.728C286.522 10.9733 280.912 9.096 273.488 9.096H262.928V51.848H273.488Z"
+							/>
+							<path d="M396.188 7.944V53H394.908V7.944H396.188Z" />
+							<path
+								d="M472.503 53H471.223L443.255 10.312V53H441.975V8.008H443.255L471.223 50.632V8.008H472.503V53Z"
+							/>
+							<path
+								d="M540.309 7.944V9.096H519.573V29.896H538.389V31.048H519.573V53H518.293V7.944H540.309Z"
+							/>
+							<path
+								d="M603.076 53.512C598.938 53.512 595.226 52.552 591.94 50.632C588.698 48.6693 586.159 45.9387 584.324 42.44C582.49 38.9413 581.573 34.9733 581.573 30.536C581.573 26.0987 582.49 22.1307 584.324 18.632C586.159 15.1333 588.698 12.424 591.94 10.504C595.226 8.54133 598.938 7.56 603.076 7.56C607.215 7.56 610.906 8.54133 614.148 10.504C617.434 12.424 619.994 15.1333 621.828 18.632C623.663 22.1307 624.581 26.0987 624.581 30.536C624.581 34.9733 623.663 38.9413 621.828 42.44C619.994 45.9387 617.434 48.6693 614.148 50.632C610.906 52.552 607.215 53.512 603.076 53.512ZM603.076 52.36C606.831 52.36 610.244 51.4853 613.316 49.736C616.388 47.944 618.799 45.4053 620.548 42.12C622.34 38.792 623.237 34.9307 623.237 30.536C623.237 26.1413 622.34 22.3013 620.548 19.016C618.799 15.688 616.388 13.1493 613.316 11.4C610.244 9.608 606.831 8.712 603.076 8.712C599.322 8.712 595.908 9.608 592.836 11.4C589.764 13.1493 587.332 15.688 585.54 19.016C583.791 22.3013 582.917 26.1413 582.917 30.536C582.917 34.9307 583.791 38.792 585.54 42.12C587.332 45.4053 589.764 47.944 592.836 49.736C595.908 51.4853 599.322 52.36 603.076 52.36Z"
+							/>
+							<path
+								d="M692.1 7.944V9.096H678.98V53H677.7V9.096H664.58V7.944H692.1Z"
+							/>
+							<path
+								d="M734.962 9.096V29.896H753.779V31.048H734.962V51.848H755.698V53H733.682V7.944H755.698V9.096H734.962Z"
+							/>
+							<path
+								d="M797.588 30.536C797.588 26.056 798.484 22.088 800.276 18.632C802.068 15.1333 804.563 12.4027 807.763 10.44C810.963 8.47734 814.569 7.496 818.579 7.496C823.827 7.496 828.158 8.712 831.571 11.144C835.027 13.576 837.545 16.9467 839.123 21.256H837.844C836.478 17.4587 834.153 14.408 830.867 12.104C827.582 9.8 823.486 8.648 818.579 8.648C814.91 8.648 811.582 9.544 808.596 11.336C805.609 13.0853 803.241 15.624 801.492 18.952C799.785 22.2373 798.932 26.0987 798.932 30.536C798.932 34.9307 799.785 38.7707 801.492 42.056C803.241 45.3413 805.609 47.88 808.596 49.672C811.625 51.4213 814.953 52.296 818.579 52.296C823.486 52.296 827.582 51.1653 830.867 48.904C834.153 46.6 836.478 43.5493 837.844 39.752H839.123C837.545 44.0613 835.027 47.432 831.571 49.864C828.158 52.2533 823.827 53.448 818.579 53.448C814.569 53.448 810.963 52.488 807.763 50.568C804.563 48.6053 802.068 45.896 800.276 42.44C798.484 38.9413 797.588 34.9733 797.588 30.536Z"
+							/>
+							<path
+								d="M913.911 7.944V53H912.631V30.408H884.535V53H883.255V7.944H884.535V29.256H912.631V7.944H913.911Z"
+							/>
+						</mask>
+						<path
+							d="M28.08 53L16.048 33.352H14.832H4.72V53H3.44V7.944H14.704C19.6533 7.944 23.3227 9.07467 25.712 11.336C28.144 13.5973 29.36 16.6907 29.36 20.616C29.36 24.2427 28.336 27.144 26.288 29.32C24.24 31.496 21.3173 32.7973 17.52 33.224L29.68 53H28.08ZM14.832 32.136C19.2267 32.136 22.512 31.0907 24.688 29C26.9067 26.9093 28.016 24.1147 28.016 20.616C28.016 13.0213 23.5787 9.224 14.704 9.224H4.72V32.136H14.832Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M97.53 40.584H75.258L70.522 53H69.05L85.754 9.288H87.034L103.674 53H102.202L97.53 40.584ZM97.082 39.432L86.394 11.336L75.706 39.432H97.082Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M171.68 20.36C171.68 24.4987 170.464 27.592 168.032 29.64C165.6 31.688 162.016 32.712 157.28 32.712H147.168V53H145.888V7.944H157.28C162.229 7.944 165.856 9.032 168.16 11.208C170.506 13.384 171.68 16.4347 171.68 20.36ZM157.28 31.368C161.888 31.368 165.216 30.408 167.264 28.488C169.354 26.568 170.4 23.8587 170.4 20.36C170.4 16.6907 169.376 13.9173 167.328 12.04C165.28 10.1627 161.93 9.224 157.28 9.224H147.168V31.368H157.28Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M215.86 7.944V53H214.58V7.944H215.86Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M273.488 7.944C281.253 7.944 287.162 9.90667 291.216 13.832C295.269 17.7573 297.296 23.304 297.296 30.472C297.296 37.64 295.269 43.1867 291.216 47.112C287.162 51.0373 281.253 53 273.488 53H261.648V7.944H273.488ZM273.488 51.848C280.912 51.848 286.522 49.9707 290.32 46.216C294.117 42.4613 296.016 37.2133 296.016 30.472C296.016 23.7307 294.117 18.4827 290.32 14.728C286.522 10.9733 280.912 9.096 273.488 9.096H262.928V51.848H273.488Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M396.188 7.944V53H394.908V7.944H396.188Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M472.503 53H471.223L443.255 10.312V53H441.975V8.008H443.255L471.223 50.632V8.008H472.503V53Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M540.309 7.944V9.096H519.573V29.896H538.389V31.048H519.573V53H518.293V7.944H540.309Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M603.076 53.512C598.938 53.512 595.226 52.552 591.94 50.632C588.698 48.6693 586.159 45.9387 584.324 42.44C582.49 38.9413 581.573 34.9733 581.573 30.536C581.573 26.0987 582.49 22.1307 584.324 18.632C586.159 15.1333 588.698 12.424 591.94 10.504C595.226 8.54133 598.938 7.56 603.076 7.56C607.215 7.56 610.906 8.54133 614.148 10.504C617.434 12.424 619.994 15.1333 621.828 18.632C623.663 22.1307 624.581 26.0987 624.581 30.536C624.581 34.9733 623.663 38.9413 621.828 42.44C619.994 45.9387 617.434 48.6693 614.148 50.632C610.906 52.552 607.215 53.512 603.076 53.512ZM603.076 52.36C606.831 52.36 610.244 51.4853 613.316 49.736C616.388 47.944 618.799 45.4053 620.548 42.12C622.34 38.792 623.237 34.9307 623.237 30.536C623.237 26.1413 622.34 22.3013 620.548 19.016C618.799 15.688 616.388 13.1493 613.316 11.4C610.244 9.608 606.831 8.712 603.076 8.712C599.322 8.712 595.908 9.608 592.836 11.4C589.764 13.1493 587.332 15.688 585.54 19.016C583.791 22.3013 582.917 26.1413 582.917 30.536C582.917 34.9307 583.791 38.792 585.54 42.12C587.332 45.4053 589.764 47.944 592.836 49.736C595.908 51.4853 599.322 52.36 603.076 52.36Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M692.1 7.944V9.096H678.98V53H677.7V9.096H664.58V7.944H692.1Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M734.962 9.096V29.896H753.779V31.048H734.962V51.848H755.698V53H733.682V7.944H755.698V9.096H734.962Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M797.588 30.536C797.588 26.056 798.484 22.088 800.276 18.632C802.068 15.1333 804.563 12.4027 807.763 10.44C810.963 8.47734 814.569 7.496 818.579 7.496C823.827 7.496 828.158 8.712 831.571 11.144C835.027 13.576 837.545 16.9467 839.123 21.256H837.844C836.478 17.4587 834.153 14.408 830.867 12.104C827.582 9.8 823.486 8.648 818.579 8.648C814.91 8.648 811.582 9.544 808.596 11.336C805.609 13.0853 803.241 15.624 801.492 18.952C799.785 22.2373 798.932 26.0987 798.932 30.536C798.932 34.9307 799.785 38.7707 801.492 42.056C803.241 45.3413 805.609 47.88 808.596 49.672C811.625 51.4213 814.953 52.296 818.579 52.296C823.486 52.296 827.582 51.1653 830.867 48.904C834.153 46.6 836.478 43.5493 837.844 39.752H839.123C837.545 44.0613 835.027 47.432 831.571 49.864C828.158 52.2533 823.827 53.448 818.579 53.448C814.569 53.448 810.963 52.488 807.763 50.568C804.563 48.6053 802.068 45.896 800.276 42.44C798.484 38.9413 797.588 34.9733 797.588 30.536Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+						<path
+							d="M913.911 7.944V53H912.631V30.408H884.535V53H883.255V7.944H884.535V29.256H912.631V7.944H913.911Z"
+							stroke="white"
+							stroke-width="6"
+							mask="url(#path-1-outside-1)"
+						/>
+					</svg>
+				</div>
 			</div>
-		</div>
-		<nav>
-			<ul class="nav-links">
-				<li>
-					<a class="nav-link active" href="#"><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a>
-				</li>
-				<li><a class="nav-link" href="services.html">Services</a></li>
-				<li><a class="nav-link" href="#">About Us</a></li>
-				<li>
-					<a class="nav-link" href="#"><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+			<nav>
+				<ul class="nav-links">
+					<li>
+						<a class="nav-link active" href="#"
+							><i class="fa fa-home fa-lg" aria-hidden="true"></i> Home</a
+						>
+					</li>
+					<li><a class="nav-link" href="services.html">Services</a></li>
+					<li><a class="nav-link" href="#">About Us</a></li>
+					<li>
+						<a class="nav-link" href="#"
+							><i class="fa fa-phone fa-lg" aria-hidden="true"></i> Contact
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-	<!-- 
+		<!-- 
 Please note, that you can apply .m--global-blending-active to .fnc-slider 
 to enable blend-mode for all background-images or apply .m--blend-bg-active
 to some specific slides (.fnc-slide). It's disabled by default in this demo,
 because it requires specific images, where more than 50% of bg is transparent or monotone
 -->
-	<div class="demo-cont">
-		<!-- slider start -->
-		<div class="fnc-slider example-slider">
-			<div class="fnc-slider__slides">
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-green m--active-slide">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content first">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>COMPUTING</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>HARDWARE SERVICES</span>
-								</div>
-								<div class="overview cs">
-									Personal & Commercial Computer Laptop Desktop Servers & Workstations
-								</div>
-							</h2>
-						</div>
-					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-dark">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content second">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>SECURITY</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>SOLUTIONS</span>
-								</div>
-								<div class="overview ss">
-									We provide the best class security and access control systems and CCTV camers to
-									enable
-									our customers to seamlessly control secure access points and manage
-									employee attendance and schedules.
-								</div>
-							</h2>
+		<div class="demo-cont">
+			<!-- slider start -->
+			<div class="fnc-slider example-slider">
+				<div class="fnc-slider__slides">
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-green m--active-slide">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content first">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>computing</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>hardware services</span>
+									</div>
+									<div class="overview cs">
+										Personal & Commercial Computer Laptop Desktop Servers &
+										Workstations
+									</div>
+								</h2>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-red">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content third">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>NETWORKING</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>SOLUTIONS</span>
-								</div>
-								<div class="overview ns">
-									Desktop Computer Networking, Office Computer Networking, Computer to Computer
-									Networking, Pc to Pc Networking, Network Troubleshooting, LAN / WAN Installation &
-									Failure Recovery.
-								</div>
-							</h2>
-						</div>
-					</div>
-				</div>
-				<!-- slide end -->
-
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-blue">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content fourth">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>PROFESSIONAL DISPLAY &</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>DIGITAL SIGNAGE</span>
-								</div>
-								<div class="overview pd">
-									Whatever business you are in it always pays to look professional. That is why we
-									provide
-									the best signage solutions to our customers. The range includes high
-									definition, high brightness models, touch screen, glass free 3D displays and large
-									format
-									video walls.
-								</div>
-							</h2>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-dark">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content second">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>security</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>solutions</span>
+									</div>
+									<div class="overview ss">
+										Best class security and access control systems and CCTV
+										camers to enable our customers to seamlessly control secure
+										access points and manage employee attendance and schedules.
+									</div>
+								</h2>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- slide end -->
-				<!-- slide start -->
-				<div class="fnc-slide m--blend-blue">
-					<div class="fnc-slide__inner">
-						<div class="fnc-slide__mask">
-							<div class="fnc-slide__mask-inner"></div>
-						</div>
-						<div class="fnc-slide__content fifth">
-							<h2 class="fnc-slide__heading">
-								<div class="fnc-slide__heading-line">
-									<span>VIDEO CONFERENCING</span>
-								</div>
-								<div class="fnc-slide__heading-line">
-									<span>SOLUTIONS</span>
-								</div>
-								<div class="overview vc">
-									We offer high quality audio & video conferencing equipment enabling seamless video
-									collaboration for our esteemed customers.
-								</div>
-							</h2>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-red">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content third">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>networking</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>solutions</span>
+									</div>
+									<div class="overview ns">
+										Desktop Computer Networking, Office Computer Networking,
+										Computer to Computer Networking, Pc to Pc Networking,
+										Network Troubleshooting, LAN / WAN Installation & Failure
+										Recovery.
+									</div>
+								</h2>
+							</div>
 						</div>
 					</div>
+					<!-- slide end -->
+
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-blue">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content fourth">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>professional display &</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>digital signage</span>
+									</div>
+									<div class="overview pd">
+										The range includes high definition, high brightness models,
+										touch screen, glass free 3D displays and large format video
+										walls.
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					<!-- slide end -->
+					<!-- slide start -->
+					<div class="fnc-slide m--blend-blue">
+						<div class="fnc-slide__inner">
+							<div class="fnc-slide__mask">
+								<div class="fnc-slide__mask-inner"></div>
+							</div>
+							<div class="fnc-slide__content fifth">
+								<h2 class="fnc-slide__heading">
+									<div class="fnc-slide__heading-line">
+										<span>video conferencing</span>
+									</div>
+									<div class="fnc-slide__heading-line">
+										<span>solution</span>
+									</div>
+									<div class="overview vc">
+										We offer high quality audio & video conferencing equipment
+										enabling seamless video collaboration for our esteemed
+										customers.
+									</div>
+								</h2>
+							</div>
+						</div>
+					</div>
+					<!-- slide end -->
 				</div>
-				<!-- slide end -->
-			</div>
-			<nav class="fnc-nav">
-				<div class="fnc-nav__bgs">
-					<div class="fnc-nav__bg m--navbg-one m--active-nav-bg"></div>
-					<div class="fnc-nav__bg m--navbg-two"></div>
-					<div class="fnc-nav__bg m--navbg-three"></div>
+				<nav class="fnc-nav">
+					<div class="fnc-nav__bgs">
+						<div class="fnc-nav__bg m--navbg-one m--active-nav-bg"></div>
+						<div class="fnc-nav__bg m--navbg-two"></div>
+						<div class="fnc-nav__bg m--navbg-three"></div>
 
-					<!-- new -->
-					<div class="fnc-nav__bg m--navbg-four"></div>
-					<div class="fnc-nav__bg m--navbg-five"></div>
-					<!-- new -->
+						<!-- new -->
+						<div class="fnc-nav__bg m--navbg-four"></div>
+						<div class="fnc-nav__bg m--navbg-five"></div>
+						<!-- new -->
+					</div>
+					<div class="fnc-nav__controls">
+						<button class="fnc-nav__control">
+							COMPUTING
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							SECURITY
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							NETWORKING
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+
+						<button class="fnc-nav__control">
+							DISPLAY
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+						<button class="fnc-nav__control">
+							VC
+							<span class="fnc-nav__control-progress"></span>
+						</button>
+					</div>
+				</nav>
+			</div>
+			<!-- slider end -->
+		</div>
+
+		<div class="about">
+			<div class="abt-top">ABOUT US</div>
+			<div class="abt-bot">
+				Rapid Infotech is a complete it solution provider for Hardware &
+				Networking, and Software development. We are based in Gurgaon. We have
+				been delivering our services to our clients for over 2 years. We have
+				the knowledge, experience and technical expertise to help your business.
+				We feel proud in introducing ourselves as one of the professional IT
+				Services provider company.
+			</div>
+		</div>
+
+		<div class="mission">
+			<div class="mission-img">
+				<img src="img/bump-collaboration-colleagues-1068523.jpg" alt="" />
+			</div>
+			<div class="our-mission">
+				<div class="mis-head">OUR MISSION</div>
+				Our mission is to provide critical solutions in a highly competitive
+				world which helps business maintain reliability, redundancy in present
+				and future scenario.
+			</div>
+		</div>
+
+		<div class="slider">
+			<div class="slide-track">
+				<div class="slide">
+					<img src="img/dell-logo.png" height="150px" width="150px" alt="" />
 				</div>
-				<div class="fnc-nav__controls">
-					<button class="fnc-nav__control">
-						COMPUTING
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						SECURITY
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						NETWORKING
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-
-					<button class="fnc-nav__control">
-						DISPLAY
-						<span class="fnc-nav__control-progress"></span>
-					</button>
-					<button class="fnc-nav__control">
-						VC
-						<span class="fnc-nav__control-progress"></span>
-					</button>
+				<div class="slide">
+					<img src="img/hp-logo.png" height="150px" width="150" alt="" />
 				</div>
-			</nav>
-		</div>
-		<!-- slider end -->
-	</div>
+				<div class="slide">
+					<img src="img/Lenovo.jpg" height="130px" width="200px" alt="" />
+				</div>
+				<div class="slide">
+					<img src="img/ibm.png" height="100px" width="200px" alt="" />
+				</div>
+				<div class="slide">
+					<img src="img/cisco.gif" height="150px" width="200px" alt="" />
+				</div>
+				<div class="slide">
+					<img
+						src="img/hikvision-vector-logo.png"
+						height="150px"
+						width="250px"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="img/microtek-logo-1.png"
+						height="150px"
+						width="250"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img src="img/Quick-Heal-logo.png" height="150" width="250" alt="" />
+				</div>
+				<div class="slide">
+					<img src="img/microssoftnew.png" height="250px" width="250" alt="" />
+				</div>
+				<div class="slide">
+					<img src="img/Tally_-_Logo.png" height="150" width="250" alt="" />
+				</div>
+				<div class="slide">
+					<img
+						src="img/apc-logo-e1516141414634.jpg"
+						height="100"
+						width="150"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img
+						src="img/LG_logo_logotype_emblem.png"
+						height="100"
+						width="200"
+						alt=""
+					/>
+				</div>
+				<div class="slide">
+					<img src="img/samsung-logo.png" height="100" width="250" alt="" />
+				</div>
 
-	<div class="about">
-		<div class="abt-top">ABOUT US</div>
-		<div class="abt-bot">
-			Rapid Infotech is a complete it solution provider for Hardware &
-			Networking, and Software development. We are based in Gurgaon. We have
-			been delivering our services to our clients for over 2 years. We have
-			the knowledge, experience and technical expertise to help your business.
-			We feel proud in introducing ourselves as one of the professional IT
-			Services provider company.
-		</div>
-	</div>
-
-	<div class="mission">
-		<div class="mission-img">
-			<img src="img/bump-collaboration-colleagues-1068523.jpg" alt="" />
-		</div>
-		<div class="our-mission">
-			<div class="mis-head">OUR MISSION</div>
-			Our mission is to provide critical solutions in a highly competitive
-			world which helps business maintain reliability, redundancy in present
-			and future scenario.
-		</div>
-	</div>
-
-	<div class="slider">
-		<div class="slide-track">
-			<div class="slide">
-				<img src="img/dell-logo.png" height="150px" width="150px" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/hp-logo.png" height="150px" width="150" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/Lenovo.jpg" height="130px" width="200px" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/ibm.png" height="100px" width="200px" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/cisco.gif" height="150px" width="200px" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/hikvision-vector-logo.png" height="150px" width="250px" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/microtek-logo-1.png" height="150px" width="250" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/Quick-Heal-logo.png" height="150" width="250" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/microssoftnew.png" height="250px" width="250" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/Tally_-_Logo.png" height="150" width="250" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/apc-logo-e1516141414634.jpg" height="100" width="150" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/LG_logo_logotype_emblem.png" height="100" width="200" alt="" />
-			</div>
-			<div class="slide">
-				<img src="img/samsung-logo.png" height="100" width="250" alt="" />
-			</div>
-
-			<div class="slide">
-				<img src="img/acer logo.png" height="100" width="250" alt="" />
+				<div class="slide">
+					<img src="img/acer logo.png" height="100" width="250" alt="" />
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<footer>
-		<div class="foot-right">
-			<div class="foot-contact">
-				<!-- <h5>
+		<footer>
+			<div class="foot-right">
+				<div class="foot-contact">
+					<!-- <h5>
 						<i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>Kapil Vats
 						- Deputy Sales Manager
 					</h5> -->
-				<div id="address">
-					<i class="fa fa-map-marker" aria-hidden="true"></i> 60/18 FRIENDS
-					COLONY , OPP JYOTI HOSPITAL <br />
-					JHARSA ROAD , GURUGRAM - 122001
-				</div>
-				<div id="number">
-					<i class="fa fa-phone" aria-hidden="true"></i> +91-9990001132
-				</div>
-				<div id="email">
-					<i class="fa fa-envelope-o" aria-hidden="true"></i>
-					sales@rapidinfotech.co.in
-				</div>
-				<div id="timings">
-					<i class="fa fa-clock-o" aria-hidden="true"></i> Monday to Friday
-					9:30 am - 7:00 am
+					<div id="address">
+						<i class="fa fa-map-marker" aria-hidden="true"></i> 60/18 FRIENDS
+						COLONY , OPP JYOTI HOSPITAL <br />
+						JHARSA ROAD , GURUGRAM - 122001
+					</div>
+					<div id="number">
+						<i class="fa fa-phone" aria-hidden="true"></i> +91-9990001132
+					</div>
+					<div id="email">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						sales@rapidinfotech.co.in
+					</div>
+					<div id="timings">
+						<i class="fa fa-clock-o" aria-hidden="true"></i> Monday to Friday
+						9:30 am - 7:00 am
+					</div>
 				</div>
 			</div>
+		</footer>
+
+		<div id="copyright">
+			Rapid Infotech &copy; All Rights Reserved. 2019
 		</div>
-	</footer>
 
-	<div id="copyright">
-		Rapid Infotech &copy; All Rights Reserved. 2019
-	</div>
-
-	<script src="svg.js"></script>
-	<script src="./main.js"></script>
-</body>
-
+		<script src="svg.js"></script>
+		<script src="./main.js"></script>
+	</body>
 </html>
